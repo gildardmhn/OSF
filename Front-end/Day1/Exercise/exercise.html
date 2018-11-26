@@ -1,0 +1,65 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Form</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="exercise.css">
+
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+			<a class="navbar-brand" href="#">OSF</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Início<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Sobre</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Mais</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container">
+			<form id="myForm" onsubmit="return false">
+				<div class="form-group">
+					<label for="nomeInput">Nome</label>
+					<input type="text" class="form-control" name="nomeInput" id="nomeInput" aria-describedby="emailHelp" placeholder="Digite o seu nome">
+				</div>
+				<div class="form-group">
+					<label for="sobrenomeInput">Sobrenome</label>
+					<input type="text" class="form-control" name="sobrenomeInput" id="sobrenomeInput" aria-describedby="emailHelp" placeholder="Digite o seu sobrenome">
+				</div>
+				<div class="form-group">
+					<label for="emailInput">Email</label>
+					<input type="email" class="form-control" name="emailInput" id="emailInput" aria-describedby="emailHelp" placeholder="Digite o seu email">
+				</div>
+				<div class="form-group">
+					<label for="senhaInput">Senha</label>
+					<input type="password" class="form-control" name="senhaInput" id="senhaInput" placeholder="Senha">
+				</div>
+				<button type="submit" class="btn btn-success">Cadastrar</button>
+			</form>
+		</div>
+
+
+		<footer>
+			
+		</footer>
+
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script src="exercise.js"></script>
+	</body>
+	</html>
